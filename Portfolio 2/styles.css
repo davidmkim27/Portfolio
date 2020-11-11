@@ -1,0 +1,93 @@
+:root {
+    --rich-black-fogra-39: #0b090aff;
+    --eerie-black: #161a1dff;
+    --blood-red: #660708ff;
+    --ruby-red: #a4161aff;
+    --carnelian: #ba181bff;
+    --imperial-red: #e5383bff;
+    --silver-chalice: #b1a7a6ff;
+    --light-gray: #d3d3d3ff;
+    --cultured: #f5f3f4ff;
+    --white: #ffffffff;
+}
+/*General*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    }
+.mid-buffer {
+    margin-top: 25px;}
+.top-buffer { 
+    margin-top: 60px;}
+
+/* Headings of each section*/
+h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+h2 {
+    text-align: center;
+    font-family: 'Markazi Text', serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: var(--eerie-black);
+}
+a:link, a:visited, a.nav-link {
+    color: var(--cultured) !important;
+}
+a:hover {
+    color: var(--light-gray) !important;
+    text-decoration: none !important;
+}
+
+/*Home*/
+.map-container{
+    overflow:hidden;
+    position:relative;
+    height:0;}
+
+.map-container iframe{  
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;}
+
+.text {
+    text-align: center;}    
+
+/*Our Process*/
+li {
+    line-height: 32px;}
+
+/*Pricing*/
+.table {
+    margin: auto;
+    width: 30% !important;
+    align-content: center !important;}
+
+/*Contact*/
+.card {
+padding: 3rem;
+
+}
+button {
+    background-color: var(--carnelian) !important;
+}
+
+/*Footer*/
+footer {
+    background-color:#1C2331;
+    color: white;
+    padding: 50px;
+}
+.page-footer {
+    background-color: var(--eerie-black);
+}
