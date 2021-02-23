@@ -4,7 +4,7 @@ This repository is a collection of code I have developed to showcase my abilitie
 UNIQLO Promotional Email: https://bit.ly/37HbNgg
 
 # View sample websites I have built through the following links:
-David Kim Photography: http://davidkimphotography.com/
+David Kim Photography: https://davidmkim27.github.io/Portfolio/
 
 Academy Parking Lot (using Bootstrap): http://academyparking.com/
 
