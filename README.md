@@ -1,7 +1,10 @@
-# Portfolio
-This repository is a collection of my files of sample websites I have built to showcase my abilities.
+This repository is a collection of code I have developed to showcase my abilities.
 
-To view Portfolio 1 fully rendered, please click on the following link: https://davidmkim27.github.io/ 
+# View sample HTML email templates I have developed through these links:
+UNIQLO Promotional Email: https://bit.ly/37HbNgg
 
-To view Portolio 2 fully rendered, please click on the following link: https://davidkim534.github.io/
+# View sample websites I have built through the following links:
+David Kim Photography: https://davidmkim27.github.io/ 
+
+Academy Parking Lot (using Bootstrap): https://davidkim534.github.io/
 
