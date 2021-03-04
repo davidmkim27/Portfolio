@@ -1,0 +1,281 @@
+$netflix-red: #e50c14
+$text-color: #ffffff
+$bg-color: #000000 
+$faq-bg: #303030
+$divider: #222
+$inputbox: #8C8C8C
+$formtext: #CACACA
+$hover-color: #f40E12
+$footer-color: #757575
+$fw-light: 400
+$align-center: center
+
+body
+    font-family: 'Netflix Sans', sans-serif
+    background-color: $bg-color
+    color: $text-color
+    margin: 0
+ 
+
+h2 
+    font-weight: $fw-light
+
+.divider
+    background-color: $divider
+    padding: 4px
+
+::placeholder
+    color: #CACACA
+
+.main header
+    padding-top: 40px
+    .logo
+        max-width: 165px
+        margin-left: 55px
+    .sign
+        margin-right: 55px
+        margin-top: 8px
+        padding: 7px 17px
+        font-size: 16px
+        font-weight: $fw-light
+        background-color: $netflix-red
+        color: $text-color
+        text-decoration: none
+        float: right
+        border-radius: 3px
+
+.main
+    background-image:linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,.4) 60%,rgba(0,0,0,.8) 100%), url(img/bg-titles.jpg)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    padding-bottom: 70px
+    .center 
+        margin: 50px auto 0 
+        padding: 75px 0
+        max-width: 750px
+        text-align: $align-center
+        h1
+            margin: 0 auto
+            max-width: 640px
+            font-size: 65px
+            font-weight: normal
+        h2
+            margin-top: 18px
+            font-size: 28px
+        .form-container
+            max-width: 750px
+            display: flex
+            flex-direction: column
+            .ready 
+                font-size: 18px
+                font-weight: 200
+                padding-top: 13px
+                letter-spacing: 1px
+            form
+                display: flex
+                padding-top: 28px
+                .textbox
+                    width: 65%
+                    height: 70px
+                    padding: 0
+                    margin: 0 auto
+                    border: 1px solid $inputbox
+                    border-radius: 2px
+                    text-indent: 10px
+                    font-size: 17px
+                .email:hover
+                    background-color: $hover-color
+                    cursor: pointer
+                .email
+                    width: 35%
+                    height: 70px
+                    margin: 0 auto
+                    border: none
+                    border-radius: 2px
+                    background-color: $netflix-red
+                    .submit p 
+                        color: $text-color
+                        display: inline
+                        padding: 0
+                        margin: 0
+                        font-size: 30px
+                    .arrow
+                        height: 20px
+
+.section-container 
+    padding: 32px 0 48px
+    .styling
+        display: flex
+        justify-content: center
+        padding: 0 64px
+        .text
+            max-width: 544px
+            margin: auto 0
+            padding: 32px 56px 0 1.5px
+            h1
+                font-size: 50px
+                line-height: 55px
+            h2
+                font-size: 27px
+                margin-bottom: 0
+        .tv
+            max-width: 530px
+            width: 100%
+            height: 100%
+            transform: translateY(0%)
+            margin: auto 0
+            .video-1
+                position: absolute
+                width: 72.4%
+                left: 13.3%
+                top: 20.6%
+            .img-1
+                width: 100%
+
+#mobile-wrapper
+    position: relative
+    order: 1
+    margin: auto 6rem auto 0
+    min-width: 450px
+    width: 450px
+#download-sidetext
+    order: 2
+#mobile
+  max-width: 500px
+  width: 100%
+
+
+
+.devices
+    position: relative
+    width: 100%
+    max-width: 550px
+    height: 100%
+    margin: auto 0
+    padding-top: 32px
+    .video-2
+        position: absolute
+        width: 61.23%
+        height: auto
+        right: 20%
+        top: 17%
+        z-index: 1
+    .img-2
+        position: relative
+        width: 100%
+        z-index: 1
+
+#faq
+    display: block
+    margin: auto
+    h1
+        text-align: center
+        font-size: 50px
+        font-weight: $fw-light
+    #faq-container
+        display: block
+        margin: auto
+        .faq-item
+            width: 45%
+            min-width: 700px
+            margin: 0 auto
+            .question
+                background-color: $faq-bg
+                margin-top: .5rem
+                h1
+                    font-size: 25px
+                    font-weight: 600
+                    margin: 20px 32px
+                    display: inline-block
+                img
+                    float: right
+                    width: 24px
+                    margin: 24px
+            .question:hover
+                cursor: pointer
+.f-form 
+    32px auto 0
+.form-container
+        max-width: 750px
+        display: flex
+        flex-direction: column
+        margin: 50px auto
+        .ready 
+            font-size: 18px
+            font-weight: 200
+            text-align: center
+            padding-top: 13px
+            letter-spacing: 1px
+        form
+            display: flex
+            padding-top: 28px
+            .textbox
+                width: 65%
+                height: 70px
+                padding: 0
+                margin: 0 auto
+                border: 1px solid $inputbox
+                border-radius: 2px
+                text-indent: 10px
+                font-size: 17px
+            .email:hover
+                background-color: $hover-color
+                cursor: pointer
+            .email
+                width: 35%
+                height: 70px
+                margin: 0 auto
+                border: none
+                border-radius: 2px
+                background-color: $netflix-red
+                .submit p 
+                    color: $text-color
+                    display: inline
+                    padding: 0
+                    margin: 0
+                    font-size: 30px
+                .arrow
+                    height: 20px
+
+#footer-container
+    color: $footer-color
+    margin: 72px auto 50px
+    padding: 0
+    .phone-number
+        text-decoration: none
+        color: $footer-color
+    footer:hover
+        text-decoration: underline
+    #footer
+        max-width: 900px
+        display: block
+        margin: 0 auto
+        .call 
+            font-weight: 600
+            margin-bottom: 27px
+            margin-left: auto
+            font-size: 16px
+            font-weight: $fw-light
+    .link-list
+        list-style-type: none
+        display: flex
+        flex-wrap: wrap
+        font-weight: 500
+        padding: 0
+        .link
+            width: 25%
+            min-width: 135px
+            margin-bottom: 10px
+            a
+                color: $footer-color
+                text-decoration: none
+                font-size: 13px
+
+
+    
+
+            
+
+
+            
